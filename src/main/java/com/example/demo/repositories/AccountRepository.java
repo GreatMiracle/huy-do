@@ -12,3 +12,4 @@ public interface AccountRepository extends
 			+ "WHERE acc.email LIKE '%:email%'")
 	public Account findByEmail(@Param("email")String email);
 }
+///aaaaaa
